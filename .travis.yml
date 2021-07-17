@@ -8,7 +8,7 @@ services:
 
 #script:
   #- docker container run -e CI=true  ahmedaminesoltani/docker-react npm run test 
-# -e CI=true used to leave the interactive test mode while running npm run test watch video number 94
+# -e CI=true used to leave the interactive test mode while running npm run test watch video number 94 (or i can use -- --coverage at the end after npm run test )
 
 
 deploy:
